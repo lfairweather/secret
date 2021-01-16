@@ -1,5 +1,8 @@
 ## Figment Learn Secret Network Tutorial 1 - w/TypeScript
-Adapted version of the [Secret Tutorial by Figment](https://github.com/figment-networks/tutorials/tree/main/secret) to use TypeScript types, executed simply through [ts-node](https://github.com/TypeStrong/ts-node).
+
+Adapted version of the [Secret Tutorial by Figment](https://github.com/figment-networks/tutorials/tree/main/secret) to
+use TypeScript types, executed simply through [ts-node](https://github.com/TypeStrong/ts-node).
+
 ### Contents
 
 * Connecting to Secret Network node using DataHub
@@ -33,14 +36,17 @@ npm install -g ts-node typescript@latest
 ## 2. Setup
 
 ### Configure the environment
+
 Make sure to copy .env.example file to .env file and update its contents.
 
 .env.example is mainnet config, to test locally copy .env.local.example, and for testnet copy .env.testnet.example
 
 ### Create a tsconfig.json file
-You need this to **transpile** the TypeScript to JavaScript. 
 
-Output to the desired JavaScript specification with 
+You need this to **transpile** the TypeScript to JavaScript.
+
+Output to the desired specification with `target`
+
 ```json
 "target": "es5",
 ```
