@@ -12,5 +12,9 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "secretjs": "^0.10.4"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   }
 }
