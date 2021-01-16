@@ -1,7 +1,7 @@
 ## Figment Learn Secret Network Tutorial 1 - w/TypeScript
 
 Adapted version of the [Secret Tutorial by Figment](https://github.com/figment-networks/tutorials/tree/main/secret) to
-use TypeScript types, executed simply through [ts-node](https://github.com/TypeStrong/ts-node).
+use TypeScript types provided by [secret.js](https://www.npmjs.com/package/secretjs), executed using [ts-node](https://github.com/TypeStrong/ts-node).
 
 ### Contents
 
@@ -59,3 +59,14 @@ Output to the desired specification with `target`
 * `npm run 4` - Transfer tokens - simple
 * `npm run 4:advanced` - Transfer tokens - advanced
 * `npm run 5` - Create, deploy and use a Secret Contract
+
+The difference between executing the TypeScript files rather than JavaScript files:
+####TypeScript
+```bash
+ts-node send.ts
+``` 
+####JavaScript
+
+```bash
+node send.ts
+```
