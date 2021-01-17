@@ -61,11 +61,13 @@ Output to the desired specification with `target`
 * `npm run 5` - Create, deploy and use a Secret Contract
 
 The difference between executing the TypeScript files rather than JavaScript files:
-####TypeScript
+
+#### TypeScript
+
 ```bash
 ts-node send.ts
 ``` 
-####JavaScript
+#### JavaScript
 
 ```bash
 node send.ts
